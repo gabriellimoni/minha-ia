@@ -8,7 +8,7 @@ app.post("/generate-commit-message", async (req: Request, res: Response) => {
   if (!req.body.diff) return res.status(400).send({ message: "diff not sent" });
 
   const response = await ollama.chat({
-    model: "gemma3:1b",
+    model: "qwen2.5-coder:1.5b",
     messages: [
       {
         role: "system",
