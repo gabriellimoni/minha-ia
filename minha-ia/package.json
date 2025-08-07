@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "minha-ia.helloWorld",
-        "title": "Hello World"
+        "command": "minha-ia.generateMessage",
+        "title": "Minha IA: Generate Commit Message"
       }
     ]
   },
